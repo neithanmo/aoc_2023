@@ -69,7 +69,6 @@ pub fn process(input: &str) -> Result<usize> {
     let seeds = parse_seeds(input)?;
     println!("seeds: {:?}", seeds);
     let maps = parse_maps(input);
-    println!("{:?}", maps);
 
     let mut lowest = usize::MAX;
 
@@ -112,7 +111,7 @@ fn parse_maps(input: &str) -> Vec<Map> {
         if line.ends_with("map:") {
             current_map = match line
                 .replace(" map:", "")
-                .replace("-", "_")
+                .replace('-', "_")
                 .to_lowercase()
                 .as_str()
             {

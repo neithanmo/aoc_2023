@@ -1,3 +1,5 @@
+use indicatif::ParallelProgressIterator;
+use rayon::prelude::*;
 use std::collections::HashMap;
 use std::ops::Range as StdRange;
 
@@ -30,8 +32,8 @@ impl Map {
             .unwrap_or(src)
     }
 
-    pub fn transpose_rev(&self, dst: usize) -> Option<usize> {
-        self.0.iter().rev().find_map(|range| range.dst_src(dst))
+    fn len(&self) -> usize {
+        self.0.len()
     }
 }
 
@@ -71,65 +73,22 @@ impl Range {
         let offset = source - self.src.start;
         Some(self.dest.start + offset)
     }
-
-    pub fn dst_src(&self, dst: usize) -> Option<usize> {
-        if !self.contains_dst(dst) {
-            return None;
-        }
-
-        let offset = dst - self.dest.start;
-        Some(self.src.start + offset)
-    }
 }
 
 pub fn process(input: &str) -> Result<usize> {
     let seeds = parse_seeds(input)?;
     let map = parse_maps(input);
+    let count: usize = seeds.iter().map(|range| range.end - range.start).sum();
 
-    let mut lowest = usize::MAX;
-
-    for range in seeds.into_iter() {
-        println!("processing range: {:?}", range);
-        let local = lowest_in_seed_range(range, &map);
-        println!("local: {} - lowest: {}", local, lowest);
-
-        if local < lowest {
-            lowest = local;
-        }
-    }
+    let lowest = seeds
+        .into_par_iter()
+        .progress_count(count as u64)
+        .flat_map(|range| range)
+        .map(|seed| map.iter().fold(seed, |seed, map| map.transpose(seed)))
+        .min()
+        .expect("Something went wrong, must have a lowest location");
 
     Ok(lowest)
-}
-
-pub fn process_rev(input: &str) -> Result<usize> {
-    let seeds = parse_seeds(input)?;
-    let maps = parse_maps(input);
-
-    let mut lowest = usize::MAX;
-
-    // lowest = (0..)
-    // .find_map(|dst| {
-    //     maps.iter()
-    //         .rev()
-    //         .fold(Some(dst), |dst, map| map.transpose_rev(dst))
-    // })
-    // .expect("Could not find lowest");
-
-    Ok(lowest)
-}
-
-pub fn lowest_in_seed_range(seeds: std::ops::Range<usize>, maps: &[Map]) -> usize {
-    let mut lowest = usize::MAX;
-    println!("range_size: {}", seeds.len());
-
-    seeds.for_each(|seed| {
-        let local = maps.iter().fold(seed, |seed, map| map.transpose(seed));
-        if local < lowest {
-            lowest = local;
-        }
-    });
-
-    lowest
 }
 
 fn parse_seeds(input: &str) -> Result<Vec<std::ops::Range<usize>>> {
@@ -167,19 +126,14 @@ fn parse_maps(input: &str) -> Vec<Map> {
 
     for line in input.lines() {
         if line.ends_with("map:") {
-            current_map = match line
-                .replace(" map:", "")
-                .replace("-", "_")
-                .to_lowercase()
-                .as_str()
-            {
-                "seed_to_soil" => Some(MapKey::SeedToSoil as u8),
-                "soil_to_fertilizer" => Some(MapKey::SoilToFertilizer as u8),
-                "fertilizer_to_water" => Some(MapKey::FertilizerToWater as u8),
-                "water_to_light" => Some(MapKey::WaterToLight as u8),
-                "light_to_temperature" => Some(MapKey::LightToTemperature as u8),
-                "temperature_to_humidity" => Some(MapKey::TemperatureToHumidity as u8),
-                "humidity_to_location" => Some(MapKey::HumidityToLocation as u8),
+            current_map = match line {
+                "seed-to-soil map:" => Some(MapKey::SeedToSoil as u8),
+                "soil-to-fertilizer map:" => Some(MapKey::SoilToFertilizer as u8),
+                "fertilizer-to-water map:" => Some(MapKey::FertilizerToWater as u8),
+                "water-to-light map:" => Some(MapKey::WaterToLight as u8),
+                "light-to-temperature map:" => Some(MapKey::LightToTemperature as u8),
+                "temperature-to-humidity map:" => Some(MapKey::TemperatureToHumidity as u8),
+                "humidity-to-location map:" => Some(MapKey::HumidityToLocation as u8),
                 _ => None,
             };
         } else if let Some(map_key) = &current_map {
@@ -199,6 +153,12 @@ fn parse_maps(input: &str) -> Vec<Map> {
         let m = Map::new(maps.get(&key).expect("map_empty").to_vec());
         vec_map.push(m);
     }
+
+    println!("maps: {}", vec_map.len());
+    vec_map
+        .iter()
+        .enumerate()
+        .for_each(|(i, map)| println!("map{}: {} ranges", i, map.len()));
 
     vec_map
 }
