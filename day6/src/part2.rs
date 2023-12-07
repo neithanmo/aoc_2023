@@ -8,7 +8,7 @@ pub fn process(input: &str) -> Result<usize> {
 
     let distance = parse_distance(lines.next().ok_or(anyhow!("Input empty"))?)?;
 
-    let options = get_options(time, distance).len();
+    let options = get_options(time, distance).count();
 
     Ok(options)
 }
@@ -35,18 +35,16 @@ fn parse_value(line: &str) -> Result<usize> {
 
 // get race time, record distance and
 // returns the options we can hold the buttom at the start to win
-fn get_options(race_time: usize, record: usize) -> Vec<usize> {
-    (0..=race_time)
-        .filter(|time| {
-            if *time == race_time {
-                return false;
-            }
-            let time_left = race_time - time;
-            let distance = time * time_left;
-            if distance > record {
-                return true;
-            }
-            false
-        })
-        .collect::<Vec<usize>>()
+fn get_options(race_time: usize, record: usize) -> impl Iterator<Item = usize> {
+    (0..=race_time).filter(move |time| {
+        if *time == race_time {
+            return false;
+        }
+        let time_left = race_time - time;
+        let distance = time * time_left;
+        if distance > record {
+            return true;
+        }
+        false
+    })
 }
