@@ -1,0 +1,641 @@
+card: 8A7J7
+hand: ThreeOfAKind(CardValues([Eight, Ace, Seven, Jack, Seven]))
+card: J3K4K
+hand: ThreeOfAKind(CardValues([Jack, Three, King, Four, King]))
+card: KJJ62
+hand: ThreeOfAKind(CardValues([King, Jack, Jack, Six, Two]))
+card: 32J33
+hand: FourOfAKind(CardValues([Three, Two, Jack, Three, Three]))
+card: 888J4
+hand: FourOfAKind(CardValues([Eight, Eight, Eight, Jack, Four]))
+card: 2AJ2K
+hand: ThreeOfAKind(CardValues([Two, Ace, Jack, Two, King]))
+card: 5JJ2Q
+hand: ThreeOfAKind(CardValues([Five, Jack, Jack, Two, Queen]))
+card: J25T4
+hand: OnePair(CardValues([Jack, Two, Five, Ten, Four]))
+card: 596J6
+hand: ThreeOfAKind(CardValues([Five, Nine, Six, Jack, Six]))
+card: J2265
+hand: ThreeOfAKind(CardValues([Jack, Two, Two, Six, Five]))
+card: J9888
+hand: FourOfAKind(CardValues([Jack, Nine, Eight, Eight, Eight]))
+card: J7777
+hand: FiveOfAKind(CardValues([Jack, Seven, Seven, Seven, Seven]))
+card: 55J54
+hand: FourOfAKind(CardValues([Five, Five, Jack, Five, Four]))
+card: 9JK93
+hand: ThreeOfAKind(CardValues([Nine, Jack, King, Nine, Three]))
+card: 3J8T5
+hand: OnePair(CardValues([Three, Jack, Eight, Ten, Five]))
+card: JQ4K2
+hand: OnePair(CardValues([Jack, Queen, Four, King, Two]))
+card: J7A67
+hand: ThreeOfAKind(CardValues([Jack, Seven, Ace, Six, Seven]))
+card: 4JKKT
+hand: ThreeOfAKind(CardValues([Four, Jack, King, King, Ten]))
+card: Q5J5A
+hand: ThreeOfAKind(CardValues([Queen, Five, Jack, Five, Ace]))
+card: QJK7A
+hand: OnePair(CardValues([Queen, Jack, King, Seven, Ace]))
+card: J5Q5Q
+hand: FiveOfAKind(CardValues([Jack, Five, Queen, Five, Queen]))
+card: J4444
+hand: FiveOfAKind(CardValues([Jack, Four, Four, Four, Four]))
+card: T9JTT
+hand: FourOfAKind(CardValues([Ten, Nine, Jack, Ten, Ten]))
+card: 68TTJ
+hand: ThreeOfAKind(CardValues([Six, Eight, Ten, Ten, Jack]))
+card: 24KJ3
+hand: OnePair(CardValues([Two, Four, King, Jack, Three]))
+card: J34AJ
+hand: ThreeOfAKind(CardValues([Jack, Three, Four, Ace, Jack]))
+card: TTTTJ
+hand: FiveOfAKind(CardValues([Ten, Ten, Ten, Ten, Jack]))
+card: 3J528
+hand: OnePair(CardValues([Three, Jack, Five, Two, Eight]))
+card: TT77J
+hand: FiveOfAKind(CardValues([Ten, Ten, Seven, Seven, Jack]))
+card: 7JQ87
+hand: ThreeOfAKind(CardValues([Seven, Jack, Queen, Eight, Seven]))
+card: KKKJ4
+hand: FourOfAKind(CardValues([King, King, King, Jack, Four]))
+card: 2225J
+hand: FourOfAKind(CardValues([Two, Two, Two, Five, Jack]))
+card: A4JA4
+hand: FiveOfAKind(CardValues([Ace, Four, Jack, Ace, Four]))
+card: 8K62J
+hand: OnePair(CardValues([Eight, King, Six, Two, Jack]))
+card: 5AJJA
+hand: FourOfAKind(CardValues([Five, Ace, Jack, Jack, Ace]))
+card: A8AAJ
+hand: FourOfAKind(CardValues([Ace, Eight, Ace, Ace, Jack]))
+card: 393J3
+hand: FourOfAKind(CardValues([Three, Nine, Three, Jack, Three]))
+card: 9AA9J
+hand: FiveOfAKind(CardValues([Nine, Ace, Ace, Nine, Jack]))
+card: 63TAJ
+hand: OnePair(CardValues([Six, Three, Ten, Ace, Jack]))
+card: Q56QJ
+hand: ThreeOfAKind(CardValues([Queen, Five, Six, Queen, Jack]))
+card: AJKQ6
+hand: OnePair(CardValues([Ace, Jack, King, Queen, Six]))
+card: 42J74
+hand: ThreeOfAKind(CardValues([Four, Two, Jack, Seven, Four]))
+card: QJ579
+hand: OnePair(CardValues([Queen, Jack, Five, Seven, Nine]))
+card: JAK23
+hand: OnePair(CardValues([Jack, Ace, King, Two, Three]))
+card: J3J97
+hand: ThreeOfAKind(CardValues([Jack, Three, Jack, Nine, Seven]))
+card: JTTA3
+hand: ThreeOfAKind(CardValues([Jack, Ten, Ten, Ace, Three]))
+card: T82J9
+hand: OnePair(CardValues([Ten, Eight, Two, Jack, Nine]))
+card: 5TJAK
+hand: OnePair(CardValues([Five, Ten, Jack, Ace, King]))
+card: J4TJ2
+hand: ThreeOfAKind(CardValues([Jack, Four, Ten, Jack, Two]))
+card: J98A8
+hand: ThreeOfAKind(CardValues([Jack, Nine, Eight, Ace, Eight]))
+card: J5664
+hand: ThreeOfAKind(CardValues([Jack, Five, Six, Six, Four]))
+card: 2J2KT
+hand: ThreeOfAKind(CardValues([Two, Jack, Two, King, Ten]))
+card: 44JQ9
+hand: ThreeOfAKind(CardValues([Four, Four, Jack, Queen, Nine]))
+card: J98KK
+hand: ThreeOfAKind(CardValues([Jack, Nine, Eight, King, King]))
+card: K276J
+hand: OnePair(CardValues([King, Two, Seven, Six, Jack]))
+card: 8K64J
+hand: OnePair(CardValues([Eight, King, Six, Four, Jack]))
+card: J8677
+hand: ThreeOfAKind(CardValues([Jack, Eight, Six, Seven, Seven]))
+card: 66J77
+hand: FiveOfAKind(CardValues([Six, Six, Jack, Seven, Seven]))
+card: 3353J
+hand: FourOfAKind(CardValues([Three, Three, Five, Three, Jack]))
+card: 3KJ5Q
+hand: OnePair(CardValues([Three, King, Jack, Five, Queen]))
+card: J22J2
+hand: FiveOfAKind(CardValues([Jack, Two, Two, Jack, Two]))
+card: AJ2AA
+hand: FourOfAKind(CardValues([Ace, Jack, Two, Ace, Ace]))
+card: JJJJJ
+hand: FiveOfAKind(CardValues([Jack, Jack, Jack, Jack, Jack]))
+card: TJTJ5
+hand: FourOfAKind(CardValues([Ten, Jack, Ten, Jack, Five]))
+card: T3K9J
+hand: OnePair(CardValues([Ten, Three, King, Nine, Jack]))
+card: 49AJ9
+hand: ThreeOfAKind(CardValues([Four, Nine, Ace, Jack, Nine]))
+card: KJJKK
+hand: FiveOfAKind(CardValues([King, Jack, Jack, King, King]))
+card: AJ774
+hand: ThreeOfAKind(CardValues([Ace, Jack, Seven, Seven, Four]))
+card: JKJ2A
+hand: ThreeOfAKind(CardValues([Jack, King, Jack, Two, Ace]))
+card: Q6KJ6
+hand: ThreeOfAKind(CardValues([Queen, Six, King, Jack, Six]))
+card: 72J22
+hand: FourOfAKind(CardValues([Seven, Two, Jack, Two, Two]))
+card: 9J672
+hand: OnePair(CardValues([Nine, Jack, Six, Seven, Two]))
+card: J2372
+hand: ThreeOfAKind(CardValues([Jack, Two, Three, Seven, Two]))
+card: JK598
+hand: OnePair(CardValues([Jack, King, Five, Nine, Eight]))
+card: 55J92
+hand: ThreeOfAKind(CardValues([Five, Five, Jack, Nine, Two]))
+card: 8KA3J
+hand: OnePair(CardValues([Eight, King, Ace, Three, Jack]))
+card: JQTQ3
+hand: ThreeOfAKind(CardValues([Jack, Queen, Ten, Queen, Three]))
+card: 2K7JA
+hand: OnePair(CardValues([Two, King, Seven, Jack, Ace]))
+card: 4KJ92
+hand: OnePair(CardValues([Four, King, Jack, Nine, Two]))
+card: 99T8J
+hand: ThreeOfAKind(CardValues([Nine, Nine, Ten, Eight, Jack]))
+card: QJQKK
+hand: FiveOfAKind(CardValues([Queen, Jack, Queen, King, King]))
+card: QJQQ9
+hand: FourOfAKind(CardValues([Queen, Jack, Queen, Queen, Nine]))
+card: T4J77
+hand: ThreeOfAKind(CardValues([Ten, Four, Jack, Seven, Seven]))
+card: QJ747
+hand: ThreeOfAKind(CardValues([Queen, Jack, Seven, Four, Seven]))
+card: Q3J33
+hand: FourOfAKind(CardValues([Queen, Three, Jack, Three, Three]))
+card: 97J58
+hand: OnePair(CardValues([Nine, Seven, Jack, Five, Eight]))
+card: J5A57
+hand: ThreeOfAKind(CardValues([Jack, Five, Ace, Five, Seven]))
+card: 7J447
+hand: FiveOfAKind(CardValues([Seven, Jack, Four, Four, Seven]))
+card: J444J
+hand: FiveOfAKind(CardValues([Jack, Four, Four, Four, Jack]))
+card: 52J23
+hand: ThreeOfAKind(CardValues([Five, Two, Jack, Two, Three]))
+card: 49J24
+hand: ThreeOfAKind(CardValues([Four, Nine, Jack, Two, Four]))
+card: JT9J5
+hand: ThreeOfAKind(CardValues([Jack, Ten, Nine, Jack, Five]))
+card: 7K9QJ
+hand: OnePair(CardValues([Seven, King, Nine, Queen, Jack]))
+card: TJ333
+hand: FourOfAKind(CardValues([Ten, Jack, Three, Three, Three]))
+card: T33AJ
+hand: ThreeOfAKind(CardValues([Ten, Three, Three, Ace, Jack]))
+card: KJ5KK
+hand: FourOfAKind(CardValues([King, Jack, Five, King, King]))
+card: TQJA3
+hand: OnePair(CardValues([Ten, Queen, Jack, Ace, Three]))
+card: 999J4
+hand: FourOfAKind(CardValues([Nine, Nine, Nine, Jack, Four]))
+card: J6766
+hand: FourOfAKind(CardValues([Jack, Six, Seven, Six, Six]))
+card: K888J
+hand: FourOfAKind(CardValues([King, Eight, Eight, Eight, Jack]))
+card: JQ294
+hand: OnePair(CardValues([Jack, Queen, Two, Nine, Four]))
+card: 6QJ6A
+hand: ThreeOfAKind(CardValues([Six, Queen, Jack, Six, Ace]))
+card: 6K6JK
+hand: FiveOfAKind(CardValues([Six, King, Six, Jack, King]))
+card: 4T6J5
+hand: OnePair(CardValues([Four, Ten, Six, Jack, Five]))
+card: K88KJ
+hand: FiveOfAKind(CardValues([King, Eight, Eight, King, Jack]))
+card: 4J97Q
+hand: OnePair(CardValues([Four, Jack, Nine, Seven, Queen]))
+card: 5JTQ3
+hand: OnePair(CardValues([Five, Jack, Ten, Queen, Three]))
+card: 2878J
+hand: ThreeOfAKind(CardValues([Two, Eight, Seven, Eight, Jack]))
+card: KKAJ6
+hand: ThreeOfAKind(CardValues([King, King, Ace, Jack, Six]))
+card: A7J77
+hand: FourOfAKind(CardValues([Ace, Seven, Jack, Seven, Seven]))
+card: 9KJ2T
+hand: OnePair(CardValues([Nine, King, Jack, Two, Ten]))
+card: 9JJA9
+hand: FourOfAKind(CardValues([Nine, Jack, Jack, Ace, Nine]))
+card: J8Q8T
+hand: ThreeOfAKind(CardValues([Jack, Eight, Queen, Eight, Ten]))
+card: 27KJQ
+hand: OnePair(CardValues([Two, Seven, King, Jack, Queen]))
+card: 9736J
+hand: OnePair(CardValues([Nine, Seven, Three, Six, Jack]))
+card: AQJAQ
+hand: FiveOfAKind(CardValues([Ace, Queen, Jack, Ace, Queen]))
+card: 3TJAJ
+hand: ThreeOfAKind(CardValues([Three, Ten, Jack, Ace, Jack]))
+card: 7363J
+hand: ThreeOfAKind(CardValues([Seven, Three, Six, Three, Jack]))
+card: 796JA
+hand: OnePair(CardValues([Seven, Nine, Six, Jack, Ace]))
+card: 9TJT9
+hand: FiveOfAKind(CardValues([Nine, Ten, Jack, Ten, Nine]))
+card: J8659
+hand: OnePair(CardValues([Jack, Eight, Six, Five, Nine]))
+card: 33J73
+hand: FourOfAKind(CardValues([Three, Three, Jack, Seven, Three]))
+card: K74KJ
+hand: ThreeOfAKind(CardValues([King, Seven, Four, King, Jack]))
+card: 55JJ5
+hand: FiveOfAKind(CardValues([Five, Five, Jack, Jack, Five]))
+card: Q6QJQ
+hand: FourOfAKind(CardValues([Queen, Six, Queen, Jack, Queen]))
+card: 5435J
+hand: ThreeOfAKind(CardValues([Five, Four, Three, Five, Jack]))
+card: QJ5QQ
+hand: FourOfAKind(CardValues([Queen, Jack, Five, Queen, Queen]))
+card: 8Q32J
+hand: OnePair(CardValues([Eight, Queen, Three, Two, Jack]))
+card: JTQJQ
+hand: FourOfAKind(CardValues([Jack, Ten, Queen, Jack, Queen]))
+card: 8KTJ8
+hand: ThreeOfAKind(CardValues([Eight, King, Ten, Jack, Eight]))
+card: KK5J7
+hand: ThreeOfAKind(CardValues([King, King, Five, Jack, Seven]))
+card: 7A72J
+hand: ThreeOfAKind(CardValues([Seven, Ace, Seven, Two, Jack]))
+card: 2222J
+hand: FiveOfAKind(CardValues([Two, Two, Two, Two, Jack]))
+card: J3993
+hand: FiveOfAKind(CardValues([Jack, Three, Nine, Nine, Three]))
+card: 966J9
+hand: FiveOfAKind(CardValues([Nine, Six, Six, Jack, Nine]))
+card: JTK77
+hand: ThreeOfAKind(CardValues([Jack, Ten, King, Seven, Seven]))
+card: J3377
+hand: FiveOfAKind(CardValues([Jack, Three, Three, Seven, Seven]))
+card: 6JJ66
+hand: FiveOfAKind(CardValues([Six, Jack, Jack, Six, Six]))
+card: 8JJJ4
+hand: FourOfAKind(CardValues([Eight, Jack, Jack, Jack, Four]))
+card: QJ868
+hand: ThreeOfAKind(CardValues([Queen, Jack, Eight, Six, Eight]))
+card: 4TJTT
+hand: FourOfAKind(CardValues([Four, Ten, Jack, Ten, Ten]))
+card: 9J599
+hand: FourOfAKind(CardValues([Nine, Jack, Five, Nine, Nine]))
+card: JKJKQ
+hand: FourOfAKind(CardValues([Jack, King, Jack, King, Queen]))
+card: 939J7
+hand: ThreeOfAKind(CardValues([Nine, Three, Nine, Jack, Seven]))
+card: J4K4A
+hand: ThreeOfAKind(CardValues([Jack, Four, King, Four, Ace]))
+card: J597K
+hand: OnePair(CardValues([Jack, Five, Nine, Seven, King]))
+card: 78J88
+hand: FourOfAKind(CardValues([Seven, Eight, Jack, Eight, Eight]))
+card: 8963J
+hand: OnePair(CardValues([Eight, Nine, Six, Three, Jack]))
+card: JJ5T5
+hand: FourOfAKind(CardValues([Jack, Jack, Five, Ten, Five]))
+card: J566T
+hand: ThreeOfAKind(CardValues([Jack, Five, Six, Six, Ten]))
+card: 2J5KA
+hand: OnePair(CardValues([Two, Jack, Five, King, Ace]))
+card: A8J32
+hand: OnePair(CardValues([Ace, Eight, Jack, Three, Two]))
+card: 2J5Q6
+hand: OnePair(CardValues([Two, Jack, Five, Queen, Six]))
+card: 3A3JK
+hand: ThreeOfAKind(CardValues([Three, Ace, Three, Jack, King]))
+card: 7JJJ7
+hand: FiveOfAKind(CardValues([Seven, Jack, Jack, Jack, Seven]))
+card: A8J5Q
+hand: OnePair(CardValues([Ace, Eight, Jack, Five, Queen]))
+card: 25T2J
+hand: ThreeOfAKind(CardValues([Two, Five, Ten, Two, Jack]))
+card: J2666
+hand: FourOfAKind(CardValues([Jack, Two, Six, Six, Six]))
+card: J5T95
+hand: ThreeOfAKind(CardValues([Jack, Five, Ten, Nine, Five]))
+card: 3KK2J
+hand: ThreeOfAKind(CardValues([Three, King, King, Two, Jack]))
+card: 3JJTT
+hand: FourOfAKind(CardValues([Three, Jack, Jack, Ten, Ten]))
+card: 8J58J
+hand: FourOfAKind(CardValues([Eight, Jack, Five, Eight, Jack]))
+card: 65KJK
+hand: ThreeOfAKind(CardValues([Six, Five, King, Jack, King]))
+card: T7JJJ
+hand: FourOfAKind(CardValues([Ten, Seven, Jack, Jack, Jack]))
+card: 2KJ2K
+hand: FiveOfAKind(CardValues([Two, King, Jack, Two, King]))
+card: 5833J
+hand: ThreeOfAKind(CardValues([Five, Eight, Three, Three, Jack]))
+card: 99JK9
+hand: FourOfAKind(CardValues([Nine, Nine, Jack, King, Nine]))
+card: QAJAA
+hand: FourOfAKind(CardValues([Queen, Ace, Jack, Ace, Ace]))
+card: 55J5T
+hand: FourOfAKind(CardValues([Five, Five, Jack, Five, Ten]))
+card: K9JJ4
+hand: ThreeOfAKind(CardValues([King, Nine, Jack, Jack, Four]))
+card: 6JKTT
+hand: ThreeOfAKind(CardValues([Six, Jack, King, Ten, Ten]))
+card: TK8TJ
+hand: ThreeOfAKind(CardValues([Ten, King, Eight, Ten, Jack]))
+card: 9J3TQ
+hand: OnePair(CardValues([Nine, Jack, Three, Ten, Queen]))
+card: ATJKK
+hand: ThreeOfAKind(CardValues([Ace, Ten, Jack, King, King]))
+card: 6T4J6
+hand: ThreeOfAKind(CardValues([Six, Ten, Four, Jack, Six]))
+card: 594J3
+hand: OnePair(CardValues([Five, Nine, Four, Jack, Three]))
+card: JQQ8Q
+hand: FourOfAKind(CardValues([Jack, Queen, Queen, Eight, Queen]))
+card: 2K2JQ
+hand: ThreeOfAKind(CardValues([Two, King, Two, Jack, Queen]))
+card: J4363
+hand: ThreeOfAKind(CardValues([Jack, Four, Three, Six, Three]))
+card: T9J97
+hand: ThreeOfAKind(CardValues([Ten, Nine, Jack, Nine, Seven]))
+card: QJ94T
+hand: OnePair(CardValues([Queen, Jack, Nine, Four, Ten]))
+card: 363J6
+hand: FiveOfAKind(CardValues([Three, Six, Three, Jack, Six]))
+card: J777J
+hand: FiveOfAKind(CardValues([Jack, Seven, Seven, Seven, Jack]))
+card: 99J93
+hand: FourOfAKind(CardValues([Nine, Nine, Jack, Nine, Three]))
+card: 3J535
+hand: FiveOfAKind(CardValues([Three, Jack, Five, Three, Five]))
+card: 59QJT
+hand: OnePair(CardValues([Five, Nine, Queen, Jack, Ten]))
+card: 6JJKQ
+hand: ThreeOfAKind(CardValues([Six, Jack, Jack, King, Queen]))
+card: 55J25
+hand: FourOfAKind(CardValues([Five, Five, Jack, Two, Five]))
+card: J3J53
+hand: FourOfAKind(CardValues([Jack, Three, Jack, Five, Three]))
+card: 7843J
+hand: OnePair(CardValues([Seven, Eight, Four, Three, Jack]))
+card: 5AA3J
+hand: ThreeOfAKind(CardValues([Five, Ace, Ace, Three, Jack]))
+card: 7QQQJ
+hand: FourOfAKind(CardValues([Seven, Queen, Queen, Queen, Jack]))
+card: K5KJA
+hand: ThreeOfAKind(CardValues([King, Five, King, Jack, Ace]))
+card: JTJ22
+hand: FourOfAKind(CardValues([Jack, Ten, Jack, Two, Two]))
+card: 7854J
+hand: OnePair(CardValues([Seven, Eight, Five, Four, Jack]))
+card: 5AAAJ
+hand: FourOfAKind(CardValues([Five, Ace, Ace, Ace, Jack]))
+card: 4Q8JQ
+hand: ThreeOfAKind(CardValues([Four, Queen, Eight, Jack, Queen]))
+card: JT823
+hand: OnePair(CardValues([Jack, Ten, Eight, Two, Three]))
+card: J9K96
+hand: ThreeOfAKind(CardValues([Jack, Nine, King, Nine, Six]))
+card: 7J77T
+hand: FourOfAKind(CardValues([Seven, Jack, Seven, Seven, Ten]))
+card: 7747J
+hand: FourOfAKind(CardValues([Seven, Seven, Four, Seven, Jack]))
+card: A3AAJ
+hand: FourOfAKind(CardValues([Ace, Three, Ace, Ace, Jack]))
+card: 569KJ
+hand: OnePair(CardValues([Five, Six, Nine, King, Jack]))
+card: TTQJ5
+hand: ThreeOfAKind(CardValues([Ten, Ten, Queen, Jack, Five]))
+card: 62J26
+hand: FiveOfAKind(CardValues([Six, Two, Jack, Two, Six]))
+card: Q4JT5
+hand: OnePair(CardValues([Queen, Four, Jack, Ten, Five]))
+card: 9Q9J9
+hand: FourOfAKind(CardValues([Nine, Queen, Nine, Jack, Nine]))
+card: JA255
+hand: ThreeOfAKind(CardValues([Jack, Ace, Two, Five, Five]))
+card: 2AAJ2
+hand: FiveOfAKind(CardValues([Two, Ace, Ace, Jack, Two]))
+card: J4343
+hand: FiveOfAKind(CardValues([Jack, Four, Three, Four, Three]))
+card: JAJQ9
+hand: ThreeOfAKind(CardValues([Jack, Ace, Jack, Queen, Nine]))
+card: 888J2
+hand: FourOfAKind(CardValues([Eight, Eight, Eight, Jack, Two]))
+card: Q5K9J
+hand: OnePair(CardValues([Queen, Five, King, Nine, Jack]))
+card: J4A35
+hand: OnePair(CardValues([Jack, Four, Ace, Three, Five]))
+card: 55TJ4
+hand: ThreeOfAKind(CardValues([Five, Five, Ten, Jack, Four]))
+card: 88J58
+hand: FourOfAKind(CardValues([Eight, Eight, Jack, Five, Eight]))
+card: 9998J
+hand: FourOfAKind(CardValues([Nine, Nine, Nine, Eight, Jack]))
+card: 9J699
+hand: FourOfAKind(CardValues([Nine, Jack, Six, Nine, Nine]))
+card: JJ9J9
+hand: FiveOfAKind(CardValues([Jack, Jack, Nine, Jack, Nine]))
+card: J8JJJ
+hand: FiveOfAKind(CardValues([Jack, Eight, Jack, Jack, Jack]))
+card: 4AJ89
+hand: OnePair(CardValues([Four, Ace, Jack, Eight, Nine]))
+card: 9KJ3K
+hand: ThreeOfAKind(CardValues([Nine, King, Jack, Three, King]))
+card: 755J2
+hand: ThreeOfAKind(CardValues([Seven, Five, Five, Jack, Two]))
+card: 4JA9A
+hand: ThreeOfAKind(CardValues([Four, Jack, Ace, Nine, Ace]))
+card: 6J687
+hand: ThreeOfAKind(CardValues([Six, Jack, Six, Eight, Seven]))
+card: 6236J
+hand: ThreeOfAKind(CardValues([Six, Two, Three, Six, Jack]))
+card: 9J999
+hand: FiveOfAKind(CardValues([Nine, Jack, Nine, Nine, Nine]))
+card: 6663J
+hand: FourOfAKind(CardValues([Six, Six, Six, Three, Jack]))
+card: 85JJK
+hand: ThreeOfAKind(CardValues([Eight, Five, Jack, Jack, King]))
+card: 966J3
+hand: ThreeOfAKind(CardValues([Nine, Six, Six, Jack, Three]))
+card: QJ2KK
+hand: ThreeOfAKind(CardValues([Queen, Jack, Two, King, King]))
+card: KJA2A
+hand: ThreeOfAKind(CardValues([King, Jack, Ace, Two, Ace]))
+card: 788J5
+hand: ThreeOfAKind(CardValues([Seven, Eight, Eight, Jack, Five]))
+card: 6KJ6J
+hand: FourOfAKind(CardValues([Six, King, Jack, Six, Jack]))
+card: 7JQ36
+hand: OnePair(CardValues([Seven, Jack, Queen, Three, Six]))
+card: AJ8TA
+hand: ThreeOfAKind(CardValues([Ace, Jack, Eight, Ten, Ace]))
+card: 9K5AJ
+hand: OnePair(CardValues([Nine, King, Five, Ace, Jack]))
+card: Q7JQJ
+hand: FourOfAKind(CardValues([Queen, Seven, Jack, Queen, Jack]))
+card: 2TJ82
+hand: ThreeOfAKind(CardValues([Two, Ten, Jack, Eight, Two]))
+card: 9AJK4
+hand: OnePair(CardValues([Nine, Ace, Jack, King, Four]))
+card: TJ26Q
+hand: OnePair(CardValues([Ten, Jack, Two, Six, Queen]))
+card: KJ6KQ
+hand: ThreeOfAKind(CardValues([King, Jack, Six, King, Queen]))
+card: JKKKK
+hand: FiveOfAKind(CardValues([Jack, King, King, King, King]))
+card: 666J6
+hand: FiveOfAKind(CardValues([Six, Six, Six, Jack, Six]))
+card: 8JAJT
+hand: ThreeOfAKind(CardValues([Eight, Jack, Ace, Jack, Ten]))
+card: A62QJ
+hand: OnePair(CardValues([Ace, Six, Two, Queen, Jack]))
+card: J3J33
+hand: FiveOfAKind(CardValues([Jack, Three, Jack, Three, Three]))
+card: J3T48
+hand: OnePair(CardValues([Jack, Three, Ten, Four, Eight]))
+card: JJ73Q
+hand: ThreeOfAKind(CardValues([Jack, Jack, Seven, Three, Queen]))
+card: 6AJ73
+hand: OnePair(CardValues([Six, Ace, Jack, Seven, Three]))
+card: J6669
+hand: FourOfAKind(CardValues([Jack, Six, Six, Six, Nine]))
+card: KQJ7Q
+hand: ThreeOfAKind(CardValues([King, Queen, Jack, Seven, Queen]))
+card: 22J24
+hand: FourOfAKind(CardValues([Two, Two, Jack, Two, Four]))
+card: J6Q66
+hand: FourOfAKind(CardValues([Jack, Six, Queen, Six, Six]))
+card: 5J42Q
+hand: OnePair(CardValues([Five, Jack, Four, Two, Queen]))
+card: 8QQJ8
+hand: FiveOfAKind(CardValues([Eight, Queen, Queen, Jack, Eight]))
+card: JAAKJ
+hand: FourOfAKind(CardValues([Jack, Ace, Ace, King, Jack]))
+card: JT443
+hand: ThreeOfAKind(CardValues([Jack, Ten, Four, Four, Three]))
+card: 3AQKJ
+hand: OnePair(CardValues([Three, Ace, Queen, King, Jack]))
+card: 2J727
+hand: FiveOfAKind(CardValues([Two, Jack, Seven, Two, Seven]))
+card: J3A85
+hand: OnePair(CardValues([Jack, Three, Ace, Eight, Five]))
+card: 8J888
+hand: FiveOfAKind(CardValues([Eight, Jack, Eight, Eight, Eight]))
+card: 7JA22
+hand: ThreeOfAKind(CardValues([Seven, Jack, Ace, Two, Two]))
+card: 98TTJ
+hand: ThreeOfAKind(CardValues([Nine, Eight, Ten, Ten, Jack]))
+card: 5555J
+hand: FiveOfAKind(CardValues([Five, Five, Five, Five, Jack]))
+card: QTQQJ
+hand: FourOfAKind(CardValues([Queen, Ten, Queen, Queen, Jack]))
+card: J4A88
+hand: ThreeOfAKind(CardValues([Jack, Four, Ace, Eight, Eight]))
+card: 2QJ22
+hand: FourOfAKind(CardValues([Two, Queen, Jack, Two, Two]))
+card: JK222
+hand: FourOfAKind(CardValues([Jack, King, Two, Two, Two]))
+card: Q9TJJ
+hand: ThreeOfAKind(CardValues([Queen, Nine, Ten, Jack, Jack]))
+card: 88JJ8
+hand: FiveOfAKind(CardValues([Eight, Eight, Jack, Jack, Eight]))
+card: 33J34
+hand: FourOfAKind(CardValues([Three, Three, Jack, Three, Four]))
+card: J8333
+hand: FourOfAKind(CardValues([Jack, Eight, Three, Three, Three]))
+card: K8TJ5
+hand: OnePair(CardValues([King, Eight, Ten, Jack, Five]))
+card: JT3TT
+hand: FourOfAKind(CardValues([Jack, Ten, Three, Ten, Ten]))
+card: 22JT2
+hand: FourOfAKind(CardValues([Two, Two, Jack, Ten, Two]))
+card: K63JA
+hand: OnePair(CardValues([King, Six, Three, Jack, Ace]))
+card: JJ3J9
+hand: FourOfAKind(CardValues([Jack, Jack, Three, Jack, Nine]))
+card: 7JKQ4
+hand: OnePair(CardValues([Seven, Jack, King, Queen, Four]))
+card: 777KJ
+hand: FourOfAKind(CardValues([Seven, Seven, Seven, King, Jack]))
+card: 34J83
+hand: ThreeOfAKind(CardValues([Three, Four, Jack, Eight, Three]))
+card: 77J26
+hand: ThreeOfAKind(CardValues([Seven, Seven, Jack, Two, Six]))
+card: JAAJA
+hand: FiveOfAKind(CardValues([Jack, Ace, Ace, Jack, Ace]))
+card: JJ299
+hand: FourOfAKind(CardValues([Jack, Jack, Two, Nine, Nine]))
+card: QJ4KA
+hand: OnePair(CardValues([Queen, Jack, Four, King, Ace]))
+card: 4T69J
+hand: OnePair(CardValues([Four, Ten, Six, Nine, Jack]))
+card: 8Q7QJ
+hand: ThreeOfAKind(CardValues([Eight, Queen, Seven, Queen, Jack]))
+card: JQ9QT
+hand: ThreeOfAKind(CardValues([Jack, Queen, Nine, Queen, Ten]))
+card: J7787
+hand: FourOfAKind(CardValues([Jack, Seven, Seven, Eight, Seven]))
+card: KJ33K
+hand: FiveOfAKind(CardValues([King, Jack, Three, Three, King]))
+card: J5J5J
+hand: FiveOfAKind(CardValues([Jack, Five, Jack, Five, Jack]))
+card: K34JA
+hand: OnePair(CardValues([King, Three, Four, Jack, Ace]))
+card: AJAA7
+hand: FourOfAKind(CardValues([Ace, Jack, Ace, Ace, Seven]))
+card: JQ22A
+hand: ThreeOfAKind(CardValues([Jack, Queen, Two, Two, Ace]))
+card: 689J6
+hand: ThreeOfAKind(CardValues([Six, Eight, Nine, Jack, Six]))
+card: QQQJQ
+hand: FiveOfAKind(CardValues([Queen, Queen, Queen, Jack, Queen]))
+card: J5AA5
+hand: FiveOfAKind(CardValues([Jack, Five, Ace, Ace, Five]))
+card: TJTJT
+hand: FiveOfAKind(CardValues([Ten, Jack, Ten, Jack, Ten]))
+card: 9898J
+hand: FiveOfAKind(CardValues([Nine, Eight, Nine, Eight, Jack]))
+card: 2QQJ2
+hand: FiveOfAKind(CardValues([Two, Queen, Queen, Jack, Two]))
+card: AAAJA
+hand: FiveOfAKind(CardValues([Ace, Ace, Ace, Jack, Ace]))
+card: 8JJJ6
+hand: FourOfAKind(CardValues([Eight, Jack, Jack, Jack, Six]))
+card: JJQJ7
+hand: FourOfAKind(CardValues([Jack, Jack, Queen, Jack, Seven]))
+card: 44JA4
+hand: FourOfAKind(CardValues([Four, Four, Jack, Ace, Four]))
+card: AJ378
+hand: OnePair(CardValues([Ace, Jack, Three, Seven, Eight]))
+card: AJA66
+hand: FiveOfAKind(CardValues([Ace, Jack, Ace, Six, Six]))
+card: KJKTT
+hand: FiveOfAKind(CardValues([King, Jack, King, Ten, Ten]))
+card: 5KJ5T
+hand: ThreeOfAKind(CardValues([Five, King, Jack, Five, Ten]))
+card: J7555
+hand: FourOfAKind(CardValues([Jack, Seven, Five, Five, Five]))
+card: JQJJ5
+hand: FourOfAKind(CardValues([Jack, Queen, Jack, Jack, Five]))
+card: 868J6
+hand: FiveOfAKind(CardValues([Eight, Six, Eight, Jack, Six]))
+card: J4445
+hand: FourOfAKind(CardValues([Jack, Four, Four, Four, Five]))
+card: JAA48
+hand: ThreeOfAKind(CardValues([Jack, Ace, Ace, Four, Eight]))
+card: 4JQQJ
+hand: FourOfAKind(CardValues([Four, Jack, Queen, Queen, Jack]))
+card: 39JQ4
+hand: OnePair(CardValues([Three, Nine, Jack, Queen, Four]))
+card: QQQJJ
+hand: FiveOfAKind(CardValues([Queen, Queen, Queen, Jack, Jack]))
+card: 333J3
+hand: FiveOfAKind(CardValues([Three, Three, Three, Jack, Three]))
+card: J99JT
+hand: FourOfAKind(CardValues([Jack, Nine, Nine, Jack, Ten]))
+card: 2954J
+hand: OnePair(CardValues([Two, Nine, Five, Four, Jack]))
+card: 376J6
+hand: ThreeOfAKind(CardValues([Three, Seven, Six, Jack, Six]))
+points: 251761722
