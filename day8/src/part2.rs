@@ -1,30 +1,18 @@
 use std::collections::{BTreeMap, HashSet};
 
 use anyhow::{anyhow, Result};
-use rayon::iter::ParallelIterator;
-use rayon::prelude::IntoParallelRefIterator;
 
 pub fn process(input: &str) -> Result<usize> {
     let mut lines = input.lines();
 
     // get instructions interator from first line
     // we should repeat all instrution forever until we reach our destination.
-    let instructions = std::iter::repeat(
-        lines
-            .next()
-            .ok_or(anyhow!("No instructions"))?
-            .chars()
-            .filter_map(|c| {
-                if c == 'R' {
-                    Some(1)
-                } else if c == 'L' {
-                    Some(0)
-                } else {
-                    None
-                }
-            }),
-    )
-    .flatten();
+    let instructions = lines
+        .next()
+        .ok_or(anyhow!("No instructions"))?
+        .chars()
+        .map(|c| if c == 'R' { 1usize } else { 0 })
+        .collect::<Vec<_>>();
 
     let map = lines
         .filter_map(|line| {
@@ -36,11 +24,9 @@ pub fn process(input: &str) -> Result<usize> {
         })
         .collect::<BTreeMap<_, _>>();
 
-    println!("num_nodes: {}", map.len());
-
     let active_nodes = get_initial_active_nodes(&map);
 
-    Ok(compute_steps(active_nodes, &map, instructions))
+    Ok(compute_steps(active_nodes, &map, &instructions))
 }
 
 pub fn parse_map(line: &str) -> Option<(String, [String; 2])> {
@@ -58,42 +44,66 @@ pub fn parse_map(line: &str) -> Option<(String, [String; 2])> {
 }
 
 pub fn compute_steps<'a>(
-    mut active_nodes: HashSet<&'a String>,
+    active_nodes: HashSet<&'a String>,
     map: &'a BTreeMap<String, [String; 2]>,
-    instructions: impl Iterator<Item = usize>,
+    instructions: &[usize],
 ) -> usize {
-    let mut num_steps = 0;
+    // use lcm, counting cycles.
+    // 1. for each node ending with A, get the instruction index
+    // that took to the corresponding node ending with Z. XXA -> XXZ
+    // 2. get the list of number of instructions for each node to get to the equivalent Z and
+    // compute lcm
+    let cycles = active_nodes
+        .iter()
+        .map(|node| {
+            let mut visited_nodes = vec![*node];
+            let mut current_node = *node;
+            instructions
+                .iter()
+                .cycle()
+                .enumerate()
+                .find_map(|(num, ins)| {
+                    let [left, right] = map.get(current_node).expect("Key must exists");
 
-    // 1. get each active node and apply instructions.
-    // 2. put the outputs according to instructions in the next_active_nodes set.
-    // 3. check if that set contains only "end_with_z" nodes. if so break we are done.
-    // 4. otherwise repeat
-    instructions.enumerate().any(|(num, ins)| {
-        num_steps = num;
-
-        active_nodes = active_nodes
-            .par_iter()
-            .map(|node| {
-                let [left, right] = map.get(*node).unwrap();
-                // next_active_nodes.insert(if ins == 0 { left } else { right });
-                if ins == 0 {
-                    left
-                } else {
-                    right
-                }
-            })
-            .collect::<HashSet<_>>();
-
-        active_nodes.iter().all(|n| n.ends_with('Z'))
-    });
-
-    num_steps + 1
+                    let next_node = if *ins == 0 { left } else { right };
+                    if next_node.ends_with('Z') {
+                        Some(num + 1)
+                    } else {
+                        current_node = next_node;
+                        visited_nodes.push(next_node);
+                        None
+                    }
+                })
+                .expect("Must find a cycle")
+        })
+        .collect::<Vec<usize>>();
+    lcm(&cycles)
 }
 
 pub fn get_initial_active_nodes(map: &BTreeMap<String, [String; 2]>) -> HashSet<&String> {
     map.keys()
         .filter(|k| k.ends_with('A'))
         .collect::<HashSet<_>>()
+}
+
+// Compute the "Least Common Multiple"
+pub fn lcm(nums: &[usize]) -> usize {
+    if nums.len() == 1 {
+        return nums[0];
+    }
+
+    let a = nums[0];
+    let b = lcm(&nums[1..]);
+
+    a * b / gcd(a, b)
+}
+
+fn gcd(a: usize, b: usize) -> usize {
+    if b == 0 {
+        a
+    } else {
+        gcd(b, a % b)
+    }
 }
 
 #[cfg(test)]
